@@ -1,0 +1,120 @@
+
+body {
+    background-color: #efefef;
+    color: #555;
+}
+
+.toolbar {
+    margin-top: 0.5em;
+}
+
+.toolbar h1 {
+    display: inline;
+    font-size: 24px;
+}
+
+.toolbar-status {
+    float: right;
+}
+
+.toolbar .btn {
+    margin-left: 0.5em;
+}
+
+.landing {
+    text-align: center;
+    padding-top: 30%;
+}
+
+.landing h1 {
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.landing h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.trips {
+    margin-top: 2em;
+}
+
+.trip {
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    width: 48%;
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.trip h1 {
+    display: inline;
+}
+
+.trip-in {
+    /* float: right;
+     padding-right: 12px; */
+}
+
+.trip-operations {
+    display: inline;
+    font-size: 140%;
+    visibility: hidden;
+    float: right;
+}
+
+.trip-operations a {
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.trip:hover .trip-operations {
+    visibility: visible;
+}
+
+.centered-card {
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 30% auto;
+    padding-bottom: 6px;
+
+}
+
+.login {
+}
+
+.login div.new #password {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.login div.new #passwordAgain {
+    margin-top: -1px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.login div.returning #passwordAgain {
+    display: none;
+}
+
+.trip-filter {
+    margin-left: 24px;
+    width: 300px;
+}

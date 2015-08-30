@@ -1,0 +1,20 @@
+{
+  "name": "travel-planner",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "vladimir.prus@gmail.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.3.0",
+    "bootstrap": "~3.3.2"
+  }
+}
